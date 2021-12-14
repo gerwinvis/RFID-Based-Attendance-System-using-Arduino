@@ -218,7 +218,7 @@ void invalid(){
   } else {
     // Serial.println(F("error opening test.txt"));
   }
-  digitalWrite(CS_SD,LOW);
+  digitalWrite(CS_SD,HIGH);
   
   lcd.home ();
   lcd.clear();
